@@ -1,0 +1,15 @@
+body{
+    background:rgb(170, 91, 91);
+}
+table, th, td{
+    border:1px solid rgb(230, 13, 13);
+}
+table{
+    background-color:lightgrey;
+}
+th{
+    text-align: center;
+    background-color:#530606;
+}
+tr:nth-child(even){background-color: #e24a4a;}
+tr:hover{background-color:rgb(240, 127, 62);}
