@@ -8,6 +8,9 @@
 </head>
 <body>
 <h1>maciek dziendziel</h1>
+    <div class="git">
+            <h3><a href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel%22%3EGITHUB</h3>
+                </div>
     <div class="maciek">
         <nav>
             <a class="nav1" href="index.php">Strona główna</a>
