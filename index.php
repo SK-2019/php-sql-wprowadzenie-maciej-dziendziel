@@ -17,6 +17,11 @@
             <a class="nav1" href="pracownicy.php">Pracownicy</a>
             <a class="nav1" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
             <a class="nav1" href="funkcjeagregujace.php">Funkcje Agregujące</a>
+            <a class="nav1" href="insert.php">Insert</a>
+<a class="nav1" href="ksiazki.php">Książki</a>
+<a class="nav1" href="delete.php">Delete</a>
+<a class="nav1" href="biblioteka.php">Biblioteka</a>
+<a class="nav1" href="dataczas.php">Data i Czas</a>
                 </nav>
            </div>
 <?php                require_once("connect.php");
