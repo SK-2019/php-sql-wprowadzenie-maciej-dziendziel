@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="item colorRed">
-        Maciej Dziendziel 
+        Maciek Dziendziel 
     </div>
         <div class=nav>
         <div class="item colorBlue">
