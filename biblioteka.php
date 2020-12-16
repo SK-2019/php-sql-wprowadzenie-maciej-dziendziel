@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="item colorRed">
-        Jakub Biliński 
+        Maciej Dziendziel 
     </div>
         <div class=nav>
         <div class="item colorBlue">
