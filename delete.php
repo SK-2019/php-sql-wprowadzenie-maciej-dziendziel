@@ -1,26 +1,6 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-
-</body>
-</html>
-<div class="nav">
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel">Github</a>
-    <a href="daneDoBazy.php">Dane do Bazy</a>
-    <a href="index.php">strona główna</a>
-    
-</div>
-
-
-
-
 <?php
 echo("<h1>jestes w delete.php </h1>");
 echo "<li>".$_POST['id'];
-
-
 
 require_once("connect.php");
 //definiujemy zapytanie $sql
@@ -37,5 +17,5 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
+header("location:http://127.0.0.1/maciek/danedobazy.php");
 ?>
