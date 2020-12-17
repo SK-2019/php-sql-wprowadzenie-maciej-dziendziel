@@ -1,5 +1,12 @@
-body{
-    background:rgb(162, 92, 94);
+*{
+    margin:0px;
+    padding:0px;
+}
+.con{
+    height: 100%;
+    width:100vw;
+    background:rgb(172, 68, 68);
+    position: relative;
 }
 table, th, td{
     border:1px solid rgb(231, 14, 15);
@@ -13,3 +20,27 @@ th{
 }
 tr:nth-child(even){background-color: #e24a4a;}
 tr:hover{background-color:rgb(240, 137, 62);}
+.item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    padding:1rem;
+    background:red;
+    color:black;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+}
+.link:hover{
+    background:crimson;
+}
+.pracownicy{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
