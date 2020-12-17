@@ -2,11 +2,11 @@
     margin:0px;
     padding:0px;
 }
-.con{
-    height: 100%;
-    width:100vw;
+body{
     background:rgb(172, 68, 68);
-    position: relative;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 table, th, td{
     border:1px solid rgb(231, 14, 15);
@@ -39,8 +39,8 @@ tr:hover{background-color:rgb(240, 137, 62);}
 .link:hover{
     background:crimson;
 }
-.pracownicy{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
+.formularz{
+    height:75px;
+    width:300px;
+    background:brown;
 }
