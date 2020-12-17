@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-                <div class="git">
-            <h3><a href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel">GITHUB</h3>
-                </div>
-          <div class="maciek">
-                 <nav>
-            <a class="nav1" href="index.php">Strona główna</a>
-            <a class="nav1 active" href="pracownicy.php">Pracownicy</a>
-            <a class="nav1" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
-            <a class="nav1" href="funkcjeagregujace.php">Funkcje Agregujące</a>
+    <div class="con">
+    <div class="nav">
+        <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
+            <a class="link e" href="index.php">Index</a>
+            <a class="link b" href="pracownicy.php">Pracownicy</a>
+            <a class="link c" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+            <a class="link d" href="Funkcje Agreugjące.php">Funkcje agregujące</a>
+            <a class="link h" href="dataczas.php">Data i Czas</a>
+            <a class="link z" href="formularz.html">Formularz</a>
+            <a class="link y" href="daneDoBazy.php">DaneDoBazy</a>
+            <a class="link g" href="książki.php">Książki</a>
                 </nav>
               </div>
-               <div class="pracownicy">
+               <div class="item a">
             <h2 class="hz1">PRACOWNICY:</h2>
         <?php
                 require_once("connect.php");
@@ -84,6 +86,7 @@
                 echo("</table>");
             ?>
                 </div>
+           </div>
            </div>
       </body>
     </html>

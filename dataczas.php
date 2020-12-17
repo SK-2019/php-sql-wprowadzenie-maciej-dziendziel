@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class=nav>
-    <a href="pracownicy.php">Pracownicy</a>
-    <a href="organizacja.php">Pracownicy i Organizacja</a>
-    <a href="funkcje.php">Funkcje Agrygujące</a>
-    <a href="dataczas.php">Data i Czas</a>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel">Github</a>
+    <div class="con">
+<div class="nav">
+        <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
+            <a class="link e" href="index.php">Index</a>
+            <a class="link b" href="pracownicy.php">Pracownicy</a>
+            <a class="link c" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+            <a class="link d" href="Funkcje Agreugjące.php">Funkcje agregujące</a>
+            <a class="link h" href="dataczas.php">Data i Czas</a>
+            <a class="link z" href="formularz.html">Formularz</a>
+            <a class="link y" href="daneDoBazy.php">DaneDoBazy</a>
+            <a class="link g" href="książki.php">Książki</a>
 
 
 </div>
-    
+<div class="item a">
 <?php
 
 
@@ -222,6 +227,7 @@ echo("<h3>".$sql."</h3>");
 
             
 ?>
-
+</div>
+</div>
 </body>
 </html>
