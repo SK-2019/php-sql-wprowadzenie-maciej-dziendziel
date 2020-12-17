@@ -9,16 +9,15 @@
 <body>
 <div class="nav">
         <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
-            <a class="link e" href="index.php">Index</a>
-            <a class="link b" href="pracownicy.php">Pracownicy</a>
-            <a class="link c" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
-            <a class="link d" href="Funkcje Agreugjące.php">Funkcje agregujące</a>
-            <a class="link h" href="dataczas.php">Data i Czas</a>
-            <a class="link z" href="formularz.html">Formularz</a>
-            <a class="link y" href="daneDoBazy.php">DaneDoBazy</a>
-            <a class="link g" href="ksiazki.php">Książki</a>
-                </nav>
-              </div>
+            <a class="link b" href="index.php">Index</a>
+            <a class="link c" href="pracownicy.php">Pracownicy</a>
+            <a class="link d" href="pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+            <a class="link e" href="Funkcje Agreugjące.php">Funkcje agregujące</a>
+            <a class="link f" href="dataczas.php">Data i Czas</a>
+            <a class="link g" href="formularz.html">Formularz</a>
+            <a class="link h" href="daneDoBazy.php">DaneDoBazy</a>
+            <a class="link i" href="ksiazki.php">Książki</a>
+        </div>
 <div class="formularz">
 <?php
         echo("Imie:".$_POST['imie']."<br>");
