@@ -14,7 +14,7 @@ body{
     flex-direction: column;
 }
 table, th, td{
-    border:1px solid rgb(231, 14, 15);
+    border:1px solid rgb(230, 14, 15);
 }
 table{
     background-color:grey;
