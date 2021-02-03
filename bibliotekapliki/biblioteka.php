@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>biblioteka</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div class="container">
@@ -20,7 +20,7 @@
             <a class="link d" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
             <a class="link e" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
             <a class="link f" href="/inne/dataczas.php">Data i Czas</a>
-            <a class="link g" href="formularz.html">Formularz</a>
+            <a class="link g" href="/formularz.html">Formularz</a>
             <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
             <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
 
@@ -30,7 +30,7 @@
 <div class="item colorGreen">
 <?php
 
-require("connect.php");
+require("../inne/connect.php");
 $sql = ('SELECT * FROM bibliotekaAutor');
 echo("<h2>Autorzy</h2>");
 echo("<h3>".$sql."</h3>");
@@ -48,7 +48,7 @@ echo("<h3>".$sql."</h3>");
 
     echo("</table>");
 
-require("connect.php");
+
 $sql = ('SELECT * FROM bibliotekaTytuł');
 echo("<h2>Tytuły</h2>");
 echo("<h3>".$sql."</h3>");
@@ -66,7 +66,7 @@ echo("<h3>".$sql."</h3>");
 
     echo("</table>");
 
-require("connect.php");
+
 $sql = ('SELECT * FROM `bibliotekaAT`, `bibliotekaAutor`, `bibliotekaTytuł` WHERE id_autor = bibliotekaAutor_ID AND id_tytuł = bibliotekaTytul_ID');
 echo("<h2>Dane w Bibliotece</h2>");
 echo("<h3>".$sql."</h3>");
