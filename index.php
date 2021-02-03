@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maciej Dziendziel 2ti gr1</title>
     <link rel="stylesheet" href="/style.css">
-  <link rel="icon" href="https://i.kym-cdn.com/photos/images/facebook/000/735/052/513.jpg%22%3E%3E>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png">
 </head>
 <body>
     <div class="con">
