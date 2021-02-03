@@ -22,7 +22,7 @@
                <div class="item a">
             <h2 class="hz1">PRACOWNICY:</h2>
         <?php
-                require_once("/connect.php");
+                require_once("../inne/connect.php");
                 $result=$conn->query("Select * From pracownicy");
                 echo("<table border=1>");
                     echo("<th>ID</th>");
