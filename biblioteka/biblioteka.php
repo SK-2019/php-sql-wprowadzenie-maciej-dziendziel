@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>biblioteka</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div class="container">
@@ -14,15 +14,15 @@
     </div>
         <div class=nav>
         <div class="item colorBlue">
-    <a href="pracownicy.php">Pracownicy</a>
-    <a href="organizacja.php">Pracownicy i Organizacja</a>
-    <a href="funkcje.php">Funkcje Agregujące</a>
-    <a href="dataczas.php">Data i Czas</a>
-    <a href="formularz.html">Zakładka testowa</a>
-    <a href="daneDoBazy.php">Dane Do Bazy</a>
-    <a href="biblioteka.php">Książki</a>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel">Github</a>
-
+     <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
+            <a class="link b" href="/index.php">Index</a>
+            <a class="link c" href="/pracownicy/pracownicy.php">Pracownicy</a>
+            <a class="link d" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+            <a class="link e" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
+            <a class="link f" href="/inne/dataczas.php">Data i Czas</a>
+            <a class="link g" href="/formularz.html">Formularz</a>
+            <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
+            <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
 
 
 
@@ -30,7 +30,7 @@
 <div class="item colorGreen">
 <?php
 
-require("connect.php");
+require("../inne/connect.php");
 $sql = ('SELECT * FROM bibliotekaAutor');
 echo("<h2>Autorzy</h2>");
 echo("<h3>".$sql."</h3>");
@@ -48,7 +48,7 @@ echo("<h3>".$sql."</h3>");
 
     echo("</table>");
 
-require("connect.php");
+
 $sql = ('SELECT * FROM bibliotekaTytuł');
 echo("<h2>Tytuły</h2>");
 echo("<h3>".$sql."</h3>");
@@ -66,7 +66,7 @@ echo("<h3>".$sql."</h3>");
 
     echo("</table>");
 
-require("connect.php");
+
 $sql = ('SELECT * FROM `bibliotekaAT`, `bibliotekaAutor`, `bibliotekaTytuł` WHERE id_autor = bibliotekaAutor_ID AND id_tytuł = bibliotekaTytul_ID');
 echo("<h2>Dane w Bibliotece</h2>");
 echo("<h3>".$sql."</h3>");
