@@ -31,6 +31,8 @@
         <h1>Maciej Dziendziel</h1>
             <h2>Select * from pracownicy</h2>
         <?php
+        $d=strtotime("now");
+        echo "<li>".date("Y-m-d h:i:sa", $d) . "<br>";
                 require_once("connect.php");
                 $result=$conn->query("Select * from pracownicy");
                 echo("<table border=1>");
