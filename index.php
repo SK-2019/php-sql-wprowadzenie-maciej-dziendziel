@@ -20,11 +20,18 @@
             <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
             <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
         </div>
+        <form action="insert.php" method="POST">
+        <input type="text" name="name" placeholder="name"></br>
+        <input type="number" name="dzial" placeholder="dzial"></br>
+        <input type="number" name="zarobki" placeholder="zarobki"></br>
+        <input type="date" name="data_urodzenia" placeholder="data urodzenia"></br>
+        <input type="submit" value="dodaj pracownika"></br>
+    </form>
         <div class="item a">
         <h1>Maciej Dziendziel</h1>
             <h2>Select * from pracownicy</h2>
         <?php
-                require_once("../inne/connect.php");
+                require_once("connect.php");
                 $result=$conn->query("Select * from pracownicy");
                 echo("<table border=1>");
                     echo("<th>Id</th>");
