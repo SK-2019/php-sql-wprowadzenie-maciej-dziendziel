@@ -19,6 +19,7 @@
             <a class="link g" href="/formularz.html">Formularz</a>
             <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
             <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
+            <a class="link j" href="/flexbox/flexbox.html">flexbox</a>
         </div>
         <form action="insert.php" method="POST">
         <input type="text" name="name" placeholder="name"></br>
