@@ -23,12 +23,6 @@ th{
 }
 tr:nth-child(even){background-color: #e24a4a;}
 tr:hover{background-color:rgb(240, 137, 62);}
-.item{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 .nav{
     
 }
