@@ -21,7 +21,7 @@
         <a class="menu" href="/inne/dataczas.php">Data i Czas</a>
         <a class="menu" href="/formularz.html">Formularz</a>
         <a class="menu" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
-        <a class="menu" href="/bibliotekapliki/ksiazki.php">Książki</a>
+        <a class="menu" href="/biblioteka/ksiazki.php">Książki</a>
         <a class="menu" href="/flexbox.html">flexbox</a>
     </div>
         <div class="tresc">
