@@ -32,7 +32,6 @@
         <input type="date" name="data_urodzenia" placeholder="data urodzenia"></br>
         <input type="submit" value="dodaj pracownika"></br>
     </form>
-        <h1>Maciej Dziendziel</h1>
             <h2>Select * from pracownicy</h2>
         <?php
         $d=strtotime("now");
