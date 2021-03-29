@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <div class="con">
+    <title>Maciej Dziendziel 2ti gr1</title>
+    <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png">
+    </head>
+    <body>
+    <div class="pole">
+                <div class="naglowek">
+                <h1>Maciej Dziendziel</h1>
+                </div>
     <div class="nav">
-         <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
-            <a class="link b" href="/index.php">Index</a>
-            <a class="link c" href="/pracownicy/pracownicy.php">Pracownicy</a>
-            <a class="link d" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
-            <a class="link e" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
-            <a class="link f" href="/inne/dataczas.php">Data i Czas</a>
-            <a class="link g" href="/formularz.html">Formularz</a>
-            <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
-            <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
-        </div>
-<div class="item a">
-    <h2 class="hz1">SELECT sum(zarobki) as es FROM pracownicy</h2>
+        <a class="menu" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
+        <a class="menu" href="/index.php">Index</a>
+        <a class="menu" href="/pracownicy/pracownicy.php">Pracownicy</a>
+        <a class="menu" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+        <a class="menu" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
+        <a class="menu" href="/inne/dataczas.php">Data i Czas</a>
+        <a class="menu" href="/formularz.html">Formularz</a>
+        <a class="menu" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
+        <a class="menu" href="/bibliotekapliki/ksiazki.php">Książki</a>
+        <a class="menu" href="/flexbox.html">flexbox</a>
+    </div>
+        <div=class"tresc"
         <?php
-                require_once("../inne/connect.php");
+                require_once("../connect.php");
                 $result=$conn->query("Select sum(zarobki) as es from pracownicy");
                 echo("<table border=1>");
                     echo("<th>Sum(zarobki)</th>");
@@ -128,8 +132,7 @@
                             echo("</tr>");}
                 echo("</table>");
         ?>                                      
-               </div>
-           </div>
-           </div>
-      </body>
+        </div>
+    </div>
+</body>
 </html>
