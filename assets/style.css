@@ -36,7 +36,11 @@ tr:hover{background-color:rgb(240, 137, 62);}
 .pole{
     display:flex;
 }
-.naglowek
+.naglowek{
+        width: 100%;
+        justify-content: center;
+        display:flex;
+}
 .formularz{
     height:75px;
     width:300px;
