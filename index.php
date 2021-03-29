@@ -9,6 +9,9 @@
     </head>
     <body>
     <div class="pole">
+                <div class="naglowek">
+                <h1>Maciej Dziendziel</h1>
+                </div>
     <div class="nav">
         <a class="menu" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
         <a class="menu" href="index.php">Index</a>
