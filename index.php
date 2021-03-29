@@ -6,21 +6,22 @@
     <title>Maciej Dziendziel 2ti gr1</title>
     <link rel="stylesheet" href="/style.css">
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png">
-</head>
-<body>
-    <div class="con">
+    </head>
+    <body>
+    <div class="pole">
     <div class="nav">
-        <a class="link a" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
-            <a class="link b" href="index.php">Index</a>
-            <a class="link c" href="/pracownicy/pracownicy.php">Pracownicy</a>
-            <a class="link d" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
-            <a class="link e" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
-            <a class="link f" href="/inne/dataczas.php">Data i Czas</a>
-            <a class="link g" href="/formularz.html">Formularz</a>
-            <a class="link h" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
-            <a class="link i" href="/bibliotekapliki/ksiazki.php">Książki</a>
-            <a class="link j" href="flexbox.html">flexbox</a>
-        </div>
+        <a class="menu" href="https://github.com/SK-2019/php-sql-wprowadzenie-maciej-dziendziel" >GITHUB</a>
+        <a class="menu" href="index.php">Index</a>
+        <a class="menu" href="/pracownicy/pracownicy.php">Pracownicy</a>
+        <a class="menu" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
+        <a class="menu" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
+        <a class="menu" href="/inne/dataczas.php">Data i Czas</a>
+        <a class="menu" href="/formularz.html">Formularz</a>
+        <a class="menu" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
+        <a class="menu" href="/bibliotekapliki/ksiazki.php">Książki</a>
+        <a class="menu" href="flexbox.html">flexbox</a>
+    </div>
+        <div class="tresc">
         <form action="insert.php" method="POST">
         <input type="text" name="name" placeholder="name"></br>
         <input type="number" name="dzial" placeholder="dzial"></br>
@@ -28,7 +29,6 @@
         <input type="date" name="data_urodzenia" placeholder="data urodzenia"></br>
         <input type="submit" value="dodaj pracownika"></br>
     </form>
-        <div class="item a">
         <h1>Maciej Dziendziel</h1>
             <h2>Select * from pracownicy</h2>
         <?php
@@ -48,8 +48,6 @@
                             echo("</tr>");}
                 echo("</table>");
         ?>
-        </div>
-        <div class="item b">
             <h2>Zad 2 Select * From pracownicy where imie like '%a' and dzial between 2 and 4</h2>
         <?php
                 
@@ -67,8 +65,6 @@
                             echo("</tr>");}
                 echo("</table>");
             ?>
-        </div>
-        <div class="item c">
             <h2 class=h2zc>Zad 3 Select avg(zarobki), dzial From pracownicy group by dzial</h2>
         <?php
                
@@ -83,8 +79,6 @@
                             echo("</tr>");}
                 echo("</table>");
             ?>
-        </div>
-        <div class="item d">
             <h2>Zad 4 Select * From pracownicy where imie not like '%a' and zarobki between 15 and 50</h2>
         <?php
                
@@ -102,8 +96,6 @@
                             echo("</tr>");}
                 echo("</table>");
             ?>
-        </div>
-        <div class="item e">
             <h2>Zad 5 Select * From pracownicy where zarobki>15 and (dzial=1 or dzial=4)</h2>
         <?php
                
