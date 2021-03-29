@@ -30,8 +30,7 @@ tr:hover{background-color:rgb(240, 137, 62);}
     flex-direction: column;
 }
 .nav{
-    display:flex;
-    justify-content: center;
+    
 }
 .pole{
     display:flex;
