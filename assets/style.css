@@ -28,6 +28,7 @@ tr:hover{background-color:rgb(240, 137, 62);}
 }
 .pole{
     display:flex;
+    flex-wrap: wrap;
 }
 .naglowek{
         width: 100%;
