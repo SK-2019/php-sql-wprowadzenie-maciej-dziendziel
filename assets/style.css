@@ -29,18 +29,12 @@ tr:hover{background-color:rgb(240, 137, 62);}
     justify-content: center;
     flex-direction: column;
 }
-.link{
-    text-decoration: none;
-    padding:1rem;
-    background:red;
-    color:black;
-}
 .nav{
     display:flex;
     justify-content: center;
 }
-.link:hover{
-    background:crimson;
+.pole{
+    display:flex;
 }
 .formularz{
     height:75px;
