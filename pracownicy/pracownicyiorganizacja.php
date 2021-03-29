@@ -26,7 +26,7 @@
     </div>
         <div class="tresc">
             <?php
-                require_once("../inne/connect.php");
+                require_once("../connect.php");
                 $result=$conn->query("Select * From pracownicy, organizacja where dzial=id_org");
                 echo("<table border=1>");
                     echo("<th>ID</th>");
