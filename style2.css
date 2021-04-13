@@ -163,7 +163,23 @@
     text-decoration: none;
     color: black;
 }
-    
+.ikona4 {
+    padding: 0.70rem;
+    margin: 2px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s; 
+    display: block;
+}
+.ikona4:hover {
+    padding-left: 0.70rem;
+    margin: 2px;
+    background-color: green;
+    text-decoration: none;
+    color: black;
+    transform: rotate(20deg);
+}    
 
 
 
