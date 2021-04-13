@@ -49,6 +49,7 @@ tr:hover{background-color:rgb(240, 137, 62);}
     text-decoration:none;
     padding:1em;
     background-color:violet;
+    margin:10px;
 }
 .menu:hover{
     background-color:darkviolet;
