@@ -127,7 +127,7 @@
     background-color: green;
     text-decoration: none;
     color: black;
-    transition: 0.3s; 
+    
 
 
 }
@@ -145,8 +145,26 @@
     background-color: pink;
     text-decoration: none;
     color: black;
-    transition: 0.3s; 
+    
 }
+.ikona3 {
+    padding: 0.70rem;
+    margin: 2px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s; 
+    display: block;
+}
+.ikona3:hover {
+    padding-left: 2rem;
+    margin: 2px;
+    background-color: green;
+    text-decoration: none;
+    color: black;
+}
+    
+
 
 
     
