@@ -121,6 +121,16 @@
     color: black;
     transition: 0.3s; 
 }
-    
+.ikona:hover {
+    padding: 1.2rem;
+    margin: 2px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s; 
+
+
+}
+
     
 
