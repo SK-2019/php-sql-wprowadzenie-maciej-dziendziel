@@ -122,9 +122,9 @@
     transition: 0.3s; 
 }
 .ikona:hover {
-    padding: 1.2rem;
+    padding: 0.70rem;
     margin: 2px;
-    background-color: yellow;
+    background-color: red;
     text-decoration: none;
     color: black;
     transition: 0.3s; 
