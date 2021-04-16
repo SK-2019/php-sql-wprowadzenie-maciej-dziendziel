@@ -25,6 +25,6 @@
         <a class="menu" href="flexbox.html">flexbox</a>
         <a class="menu" href="wieledowielu">wieledowielu</a>
      </div>
-</body>
+</head>
 </html>
         
