@@ -10,10 +10,10 @@
     <body>
     <div class="pole">
                 <div class="naglowek">
-                 <?php include("header.php") ?>
+                 <?php include("assets/header.php") ?>
                 </div>
     <div class="nav">
-        <?php include("menu.php") ?>
+        <?php include("assets/menu.php") ?>
     </div>
         <div class="tresc">
         <form action="insert.php" method="POST">
