@@ -13,7 +13,7 @@
                 <h1>Maciej Dziendziel</h1>
                 </div>
     <div class="nav">
-        <?php include("/menu.php") ?>
+        <?php include("menu.php") ?>
     </div>
         <div class="tresc">
         <form action="insert.php" method="POST">
