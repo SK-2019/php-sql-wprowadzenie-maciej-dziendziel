@@ -10,7 +10,7 @@
     <body>
     <div class="pole">
                 <div class="naglowek">
-                <h1>Maciej Dziendziel</h1>
+                 <?php include("header.php") ?>
                 </div>
     <div class="nav">
         <?php include("menu.php") ?>
