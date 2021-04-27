@@ -10,4 +10,6 @@
         <a class="menu" href="/relacje/lekarzpacjent.php">Lekarz pacjent</a>
         <a class="menu" href="/relacje/nauczycielklasa.php">Nauczyciel klasa</a>
         <a class="menu" href="/relacje/producentprodukt.php">Producent produkt</a>
+        <a class="menu" href="/relacje/autortytul.php">Autor tytul</a>
+        <a class="menu" href="/relacje/fryzjerklient.php">Fryzjer klient</a>
 
