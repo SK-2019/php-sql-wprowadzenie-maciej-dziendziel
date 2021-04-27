@@ -15,6 +15,7 @@
     <div class="nav">
         <?php include("../assets/menu.php") ?>
     </div>
+    <div class="tresc">
 <?php
                 echo("<h1>Przychodnia</h1>");
 
@@ -73,3 +74,4 @@
 
 
                         ?>
+                         </div>

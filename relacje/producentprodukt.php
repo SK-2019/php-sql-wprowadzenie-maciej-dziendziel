@@ -15,6 +15,7 @@
     <div class="nav">
         <?php include("../assets/menu.php") ?>
     </div>
+    <div class="tresc">
 <?php
 
             require_once("../connect.php");
@@ -65,4 +66,4 @@
                                 echo("</table>");
 
         ?>
-        
+        </div>
