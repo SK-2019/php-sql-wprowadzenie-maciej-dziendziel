@@ -7,3 +7,7 @@
         <a class="menu" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
         <a class="menu" href="/biblioteka/ksiazki.php">Książki</a>
         <a class="menu" href="flexbox.html">flexbox</a>
+        <a class="menu" href="/relacje/lekarzpacjent.php">Lekarz pacjent</a>
+        <a class="menu" href="/relacje/nauczycielklasa.php">Nauczyciel klasa</a>
+        <a class="menu" href="/relacje/producentprodukt.php">Producent produkt</a>
+
