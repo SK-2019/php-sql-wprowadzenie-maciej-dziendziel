@@ -50,6 +50,7 @@ tr:hover{background-color:rgb(240, 137, 62);}
     padding:1em;
     background-color:violet;
     margin:10px;
+    border-radius: 100px;
 }
 .menu:hover{
     background-color:darkviolet;
