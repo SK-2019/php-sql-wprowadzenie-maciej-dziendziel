@@ -55,6 +55,7 @@
                         echo("<h2>".$sql."</h2>");
                         $result=$conn->query($sql);
                                 echo("<table border=1>");
+                                echo("<th>id</th>");
                                 echo("<th>klasa</th>");
                                 echo("<th>nauczyciel</th>");
         

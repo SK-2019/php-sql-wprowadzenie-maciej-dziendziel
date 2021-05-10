@@ -61,6 +61,7 @@
                 $result=$conn->query($sql);
                 
                         echo("<table border=1>");
+                        echo("<th>id</th>");
                         echo("<th>lekarz</th>");
                         echo("<th>pacjent</th>");
     
