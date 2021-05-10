@@ -61,7 +61,7 @@
         
                                 while($row=$result->fetch_assoc()) {
                                         echo("<tr>");
-                                            echo("<td>".$row["fryzjer"]."</td><td>".$row["klient"]."</td>");
+                                            echo("<td>".$row["id"]."</td><td>".$row["fryzjer"]."</td><td>".$row["klient"]."</td>");
                                         echo("</tr>");
                                     }
                                 echo("</table>");

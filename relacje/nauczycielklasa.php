@@ -60,7 +60,7 @@
         
                                 while($row=$result->fetch_assoc()) {
                                         echo("<tr>");
-                                            echo("<td>".$row["klasa"]."</td><td>".$row["nauczyciel"]."</td>");
+                                            echo("<td>".$row["id"]."</td><td>".$row["klasa"]."</td><td>".$row["nauczyciel"]."</td>");
                                         echo("</tr>");
                                     }
                                 echo("</table>");
