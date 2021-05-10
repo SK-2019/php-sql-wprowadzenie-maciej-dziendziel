@@ -61,13 +61,14 @@
                 $result=$conn->query($sql);
                 
                         echo("<table border=1>");
+                        echo("<th>id</th>");
                         echo("<th>autor</th>");
                         echo("<th>tytul</th>");
     
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("<td>".$row["nazwisko"]."</td><td>".$row["tytul"]."</td>");
+                                    echo("<td>".$row["id"]."</td><td>".$row["nazwisko"]."</td><td>".$row["tytul"]."</td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
