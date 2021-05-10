@@ -33,7 +33,13 @@
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("<td>".$row["id"]."</td><td>".$row["lekarz"]."</td>");
+                                    echo("<td>".$row["id"]."</td><td>".$row["lekarz"]."</td><td>
+                                    <form action='delete.php' method='POST'>
+                                    <input type='number' name='row' value='".$wiersz[$dana2]."' hidden>
+                                    <input type='text' name='table' value='".$table."' hidden>
+                                    <input type='text' name='column' value='".$columnid."' hidden>
+                                    <input type='submit' value='Usuń'>
+                                    </form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
@@ -50,7 +56,13 @@
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("<td>".$row["id"]."</td><td>".$row["pacjent"]."</td>");
+                                    echo("<td>".$row["id"]."</td><td>".$row["pacjent"]."</td><td>
+                                    <form action='delete.php' method='POST'>
+                                    <input type='number' name='row' value='".$wiersz[$dana2]."' hidden>
+                                    <input type='text' name='table' value='".$table."' hidden>
+                                    <input type='text' name='column' value='".$columnid."' hidden>
+                                    <input type='submit' value='Usuń'>
+                                    </form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
