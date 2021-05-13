@@ -1,0 +1,57 @@
+.obraz {
+    background-color: rgb(8, 11, 184);
+    margin: 12px;
+    padding: 0px;
+    width: 320px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    border: 1px solid black;
+  }
+
+  .fot1 {
+    background-image: url("https://d-pt.ppstatic.pl/kadry/k/r/1/aa/34/5c4872186bb5c_o.jpg?1548251672");
+  }
+  .fot1:hover {
+    background-image: url("https://d-pt.ppstatic.pl/k/r/1/c6/df/5c48721ac15e3_p.jpg?1548251675");
+  }
+  
+  .fot2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ8R7qDam6KWEyVqTPqjTRX0266msli_ebxSEhV7OUn5nSAU6-zbaaupHIzVGfpC2KGFM&usqp=CAU");
+  }
+  
+  .fot3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucTM_RR2rBqnWAOzb6ub1WcHMUdisErIr6sdPjBrszx6u99Nsx-QYjEmY49xUpLAik-k&usqp=CAU");
+  }
+
+  .fot4 {
+    background-image: url("https://portraitsofwildflowers.files.wordpress.com/2014/05/sand-blowing-off-dune-9392.jpg");
+  }
+
+  .fot5 {
+    background-image: url("https://ak.picdn.net/shutterstock/videos/22118569/thumb/1.jpg");
+  }
+
+
+
+  .rzad {
+    background-color: rgb(15, 72, 138);
+    display:flex;
+  }
+
+  .fot1_tytul {
+    background-color: rgb(87, 165, 216);
+    padding: 7px;
+    display: block;
+  }
+  .fot1_opis {
+    background-color: rgb(33, 95, 146);
+    padding: 8px;
+    display: block;
+  }
+
+  .obraz:hover {
+    transform: scale(0.93);
+    filter: saturate(2.0) brightness(1.6);
+  }

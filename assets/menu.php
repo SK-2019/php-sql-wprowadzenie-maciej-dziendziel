@@ -12,5 +12,5 @@
         <a class="menu" href="/relacje/producentprodukt.php">Producent produkt</a>
         <a class="menu" href="/relacje/autortytul.php">Autor tytul</a>
         <a class="menu" href="/relacje/fryzjerklient.php">Fryzjer klient</a>
-        <a class="menu" href="galeria.html">Galeria</a>
+        <a class="menu" href="/galeria/galeria.html">Galeria</a>
 
