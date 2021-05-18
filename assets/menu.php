@@ -4,7 +4,7 @@
         <a class="menu" href="/pracownicy/pracownicyiorganizacja.php">Pracownicy i Organizacja</a>
         <a class="menu" href="/funkcje/Funkcje Agreugjące.php">Funkcje agregujące</a>
         <a class="menu" href="/pracownicy/dataczas.php">Data i Czas</a>
-        <a class="menu" href="/formularze/daneDoBazy.php">DaneDoBazy</a>
+        <a class="menu" href="/formularze/daneDoBazy.php">Dane Do Bazy</a>
         <a class="menu" href="/biblioteka/ksiazki.php">Książki</a>
         <a class="menu" href="flexbox.html">flexbox</a>
         <a class="menu" href="/relacje/lekarzpacjent.php">Lekarz pacjent</a>
@@ -13,4 +13,4 @@
         <a class="menu" href="/relacje/autortytul.php">Autor tytul</a>
         <a class="menu" href="/relacje/fryzjerklient.php">Fryzjer klient</a>
         <a class="menu" href="/galeria/galeria.html">Galeria</a>
-
+        <a class="menu" href="film1.php">Film 1</a>
