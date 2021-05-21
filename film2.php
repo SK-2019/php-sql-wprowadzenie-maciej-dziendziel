@@ -10,8 +10,7 @@
     <body>
     <div class="pole">
 <?php
-$nick = maciek;
-echo("twój nick to: $nick");
+
 ?>
 </div>
 </body>
