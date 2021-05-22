@@ -16,7 +16,7 @@ Imie: <input type="text" name="imie">
 </form>
 <?php
 if ($_POST['imie']=='maciek') {
-  echo('witaj moj panie');
+  echo('czesc macius');
 } else {
   echo('nie znam cie');
 }
