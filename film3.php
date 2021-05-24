@@ -11,7 +11,7 @@
     <div class="pole">
 <?php
 for($i=1:$i<11:$i++){
-    echo($i.'maciek<br>');
+    echo($i.'maciek<br>'):
 }
 ?>
 </div>
