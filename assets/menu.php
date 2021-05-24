@@ -15,3 +15,4 @@
         <a class="menu" href="/galeria/galeria.html">Galeria</a>
         <a class="menu" href="film.php">Film 1</a>
         <a class="menu" href="film2.php">Film 2</a>
+        <a class="menu" href="film3.php">Film 3</a>
